@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-tx:main" external.linked.project.path="$MODULE_DIR$/../../../../spring-tx" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.0.0.BUILD-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../../../spring-tx/build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../spring-tx/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-tx/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-tx/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-tx/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="spring-beans-groovy_main" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../spring-core/build/libs/spring-cglib-repack-3.2.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../spring-core/build/libs/spring-objenesis-repack-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../spring-core/build/libs/spring-cglib-repack-3.2.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../spring-core/build/libs/spring-objenesis-repack-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring-beans_main" />
+    <orderEntry type="module" module-name="spring-core_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-beans_main" scope="RUNTIME" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.transaction:javax.transaction-api:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.resource:javax.resource-api:1.7" level="project" />
+    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.ejb:javax.ejb-api:3.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.interceptor:javax.interceptor-api:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.ibm.websphere:uow:6.0.2.17" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../spring-core/build/libs/spring-objenesis-repack-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring-expression_main" scope="RUNTIME" />
+  </component>
+</module>
